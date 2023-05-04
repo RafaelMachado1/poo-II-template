@@ -46,4 +46,10 @@ export class User {
     public setCreatedAt(value: string): void {
         this.createdAt = value
     }
+
+    /*public getUserDBModel(){
+        return {
+            id
+        }
+    }*/
 }
